@@ -5,9 +5,11 @@ public class Collegesystem
 {
     public static void main(String[] args)
     {
-        for (int i=1;i<=4;i++)
+        int sum=0;
+        for (int i=1;i<=10;i++)
         {
-            System.out.println("Gurwinder Singh");
+            sum=sum +i;
         }
+        System.out.println("Sum of 1 to 10 is : "+sum);
     }
 }
